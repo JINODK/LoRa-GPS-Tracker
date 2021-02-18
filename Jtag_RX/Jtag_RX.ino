@@ -48,8 +48,7 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(D3, D4, -1);
 void setup() {
   Serial.begin(115200);
   Serial.println();
-  base64_decode(SthImportant, "TWFkZSBieSBKSU5PREsgdW5kZXIgTUlUIGxpY2Vuc2U", 43);
-  Serial.println(SthImportant);
+  Serial.println("Made by JINODK under MIT license");
   Serial.println("booting...");
   LoRa.setPins(D8, D0, D1); // NSS RESET DIO0
   Serial.println(LoRa.begin(868E6));
