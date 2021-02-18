@@ -45,8 +45,7 @@ AESLib aesLib;
 void setup() {
   Serial.begin(9600);
   Serial.println();
-  base64_decode(SthImportant, "TWFkZSBieSBKSU5PREsgdW5kZXIgTUlUIGxpY2Vuc2U", 43);
-  Serial.println(SthImportant);
+  Serial.println("Made by JINODK under MIT license");
   Serial.print("Booting... ");
   
   // Wiring config for SX1276 - NODEMCU
