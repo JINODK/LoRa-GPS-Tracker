@@ -64,7 +64,7 @@ void setup() {
   
   // Wiring config for SX1276 - NODEMCU
   // NSS   - D8
-  // RESET - D4
+  // RESET - D0
   // DIO0  - D1
   // for more info about configuring LoRa module, visit https://github.com/sandeepmistry/arduino-LoRa/blob/master/API.md#setup
   LoRa.setPins(D8, D0, D1); // NSS RESET DIO0
